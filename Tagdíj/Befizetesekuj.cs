@@ -16,5 +16,12 @@ namespace Tagdíj
         {
             InitializeComponent();
         }
+
+        private void Befizetesekuj_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            this.Hide();
+            e.Cancel = true;
+            Program.nyito.Show();
+        }
     }
 }

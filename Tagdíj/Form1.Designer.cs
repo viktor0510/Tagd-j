@@ -63,12 +63,14 @@
             this.újToolStripMenuItem.Name = "újToolStripMenuItem";
             this.újToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.újToolStripMenuItem.Text = "Új";
+            this.újToolStripMenuItem.Click += new System.EventHandler(this.újToolStripMenuItem_Click);
             // 
             // módosításToolStripMenuItem
             // 
             this.módosításToolStripMenuItem.Name = "módosításToolStripMenuItem";
             this.módosításToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.módosításToolStripMenuItem.Text = "Módosítás";
+            this.módosításToolStripMenuItem.Click += new System.EventHandler(this.módosításToolStripMenuItem_Click);
             // 
             // befizetésekToolStripMenuItem
             // 
@@ -84,12 +86,14 @@
             this.újToolStripMenuItem1.Name = "újToolStripMenuItem1";
             this.újToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.újToolStripMenuItem1.Text = "Új";
+            this.újToolStripMenuItem1.Click += new System.EventHandler(this.újToolStripMenuItem1_Click);
             // 
             // lekérdezésToolStripMenuItem
             // 
             this.lekérdezésToolStripMenuItem.Name = "lekérdezésToolStripMenuItem";
             this.lekérdezésToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.lekérdezésToolStripMenuItem.Text = "Lekérdezés";
+            this.lekérdezésToolStripMenuItem.Click += new System.EventHandler(this.lekérdezésToolStripMenuItem_Click);
             // 
             // Form1
             // 
