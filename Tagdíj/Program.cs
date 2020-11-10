@@ -42,6 +42,7 @@ namespace Tagdíj
             tagokmodositas = new Tagokmodositas();
             befizetesekuj = new Befizetesekuj();
             befizeteslekerdezes = new Befizeteslekerdezes();
+            nyito = new Form1();
             Application.Run(nyito);
         }
     }
