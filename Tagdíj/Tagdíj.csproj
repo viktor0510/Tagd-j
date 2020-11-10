@@ -92,6 +92,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Befizetesek.cs" />
     <Compile Include="Befizetesekuj.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -112,6 +113,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tagok.cs" />
     <Compile Include="Tagokmodositas.cs">
       <SubType>Form</SubType>
     </Compile>

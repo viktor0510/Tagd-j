@@ -162,6 +162,7 @@
             this.button1_ujRogzites.TabIndex = 11;
             this.button1_ujRogzites.Text = "Rögzítés";
             this.button1_ujRogzites.UseVisualStyleBackColor = true;
+            this.button1_ujRogzites.Click += new System.EventHandler(this.button1_ujRogzites_Click);
             // 
             // Tagokuj
             // 

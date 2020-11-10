@@ -110,6 +110,7 @@
             this.button1_Befizetes.TabIndex = 7;
             this.button1_Befizetes.Text = "Befizetés";
             this.button1_Befizetes.UseVisualStyleBackColor = true;
+            this.button1_Befizetes.Click += new System.EventHandler(this.button1_Befizetes_Click);
             // 
             // Befizetesekuj
             // 
